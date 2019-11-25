@@ -1,5 +1,5 @@
 {
-    "name": "gedmo/doctrine-extensions",
+    "name": "agf/doctrine-extensions",
     "type": "library",
     "description": "Doctrine2 behavioral extensions",
     "keywords": [
@@ -33,6 +33,13 @@
             "email": "david@liip.ch"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/senk123/doctrine-extensions.git"
+        }
+    ],
+
     "require": {
         "php": ">=5.3.2",
         "behat/transliterator": "~1.2",
